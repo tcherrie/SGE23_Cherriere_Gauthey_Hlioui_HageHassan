@@ -13,7 +13,7 @@ Codes associés à l'article "Optimisation topologique d’un rotor de MRV pour 
 - `Topopt_lineaire.ipynb` : notebook qui propose une optimisation topologique d'un rotor de MRV (fer considéré linéaire)
 - `Topopt_non_lineaire.ipynb` : notebook qui propose une optimisation topologique d'un rotor de MRV (fer considéré non-linéaire)
 
-## 2) Instruction d'installation locale
+## 2) Instructions d'installation locale
 
 1. Télécharger et décompresser le contenu de ce [répertoire github](https://github.com/tcherrie/SGE23_Cherriere_Gauthey_Hlioui_HageHassan) **sur votre bureau**. Pour cela cliquer sur "Code", puis "Download ZIP".
 2. Télécharger et installer [Miniconda](https://docs.conda.io/en/latest/miniconda.html) avec les options par défaut correspondant à votre système
