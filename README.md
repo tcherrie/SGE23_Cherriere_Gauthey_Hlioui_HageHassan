@@ -13,7 +13,31 @@ Codes associés à l'article "Optimisation topologique d’un rotor de MRV pour 
 - `Topopt_lineaire.ipynb` : notebook qui propose une optimisation topologique d'un rotor de MRV (fer considéré linéaire)
 - `Topopt_non_lineaire.ipynb` : notebook qui propose une optimisation topologique d'un rotor de MRV (fer considéré non-linéaire)
 
-## 2) License
+## 2) Instruction d'installation locale
+
+1. Télécharger et décompresser le contenu de ce [répertoire github](https://github.com/tcherrie/SGE23_Cherriere_Gauthey_Hlioui_HageHassan) **sur votre bureau**. Pour cela cliquer sur "Code", puis "Download ZIP".
+2. Télécharger et installer [Miniconda](https://docs.conda.io/en/latest/miniconda.html) avec les options par défaut correspondant à votre système
+3. Ouvrir une console Anaconda Prompt (sur Windows, taper dans la barre de recherche en bas à gauche "Anaconda prompt" ; sur Linux et Mac on utilisera directement le terminal)
+
+Désormais, on écrira la suite d'instructions suivante sur la console (vous pouvez copier les instructions et les coller dans la console par un clic droit ; appuyer sur Entrée après avoir écrit l'instruction pour l'exécuter ; appuyer sur "y" pour confirmer lorsque cela vous sera demandé) : 
+
+4. Créer un nouvel environnement "topopt_SGE23" : `conda create -n topopt_SGE23 python=3`
+5. Activer l'environnement : `conda activate topopt_SGE23`
+6. Installer des packages nécessaires (500Mb) : `conda install jupyter numpy matplotlib scipy` (appuyer sur y + entrée pour confirmer l'installation). Si un blocage apparait, fermer la console et recommencer les étapes 3, 5 et 6. Les packages déjà téléchargés ne seront pas retéléchargés, ce qui fluidifiera le processus.
+7. Installer NGSolve (300Mb) : `pip install ngsolve`
+8. Installer des extensions de visualisation sur les notebooks :
+ - `pip install --upgrade webgui_jupyter_widgets`
+ - `jupyter nbextension install --user --py webgui_jupyter_widgets`
+ - `jupyter nbextension enable --user --py webgui_jupyter_widgets`
+
+**Si une erreur apparaît à l'étape 8**, essayer `jupyter nbextension install webgui_jupyter_widgets` ; sinon passer directement à l'étape 9.
+
+9. Lancer Jupyter : `jupyter notebook`
+10. Dans l'explorateur de fichiers qui s'ouvre, sélectionner "Desktop", puis "SGE23_Cherriere_Gauthey_Hlioui_HageHassan"
+
+Vous pouvez désormais exécuter et interagir avec les notebooks.
+
+## 3) License
 
 Copyright (C) 2023 Théodore CHERRIERE (theodore.cherriere@ens-paris-saclay.fr), Thomas GAUTHEY (thomas.gauthey@centralesupelec.fr), Sami HLIOUI (sami.hlioui@cyu.fr), Maya HAGE-HASSAN (maya.hage-hassan@centralesupelec.fr)
 
