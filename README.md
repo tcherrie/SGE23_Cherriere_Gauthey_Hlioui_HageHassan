@@ -2,6 +2,8 @@
 Codes associés à l'article "Optimisation topologique d’un rotor de MRV pour maximiser le couple moyen : un problème mal posé", SGE 2023, Cherriere T., Gauthey T., Hlioui S., Hage-Hassan M.
 
 ![GitHub license](https://img.shields.io/github/license/tcherrie/SGE23_Cherriere_Gauthey_Hlioui_HageHassan)
+[![DOI](https://zenodo.org/badge/642540718.svg)](https://zenodo.org/badge/latestdoi/642540718)
+
 
 ## 1) Contenu : 
 
